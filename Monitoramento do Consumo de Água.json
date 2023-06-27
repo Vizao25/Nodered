@@ -1,0 +1,2068 @@
+[
+    {
+        "id": "1ec0a21f3604a711",
+        "type": "tab",
+        "label": "Monitoramento do Consumo de Àgua",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "2ba8bb5e7935c93b",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "viniciusprojetos.duckdns.org",
+        "port": "1883",
+        "clientid": "Vinicius",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "3c1b09fa4c168fdf",
+        "type": "ui_group",
+        "name": "Gráfico Banco de Dados",
+        "tab": "3046f6ea24ac700b",
+        "order": 6,
+        "disp": true,
+        "width": "14",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6a4e2e67017b39e7",
+        "type": "ui_group",
+        "name": "Tabela do Banco de Dados",
+        "tab": "3046f6ea24ac700b",
+        "order": 7,
+        "disp": true,
+        "width": "14",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3046f6ea24ac700b",
+        "type": "ui_tab",
+        "name": "Monitoramento de Consumo de Água em Residências",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7ceda1cf626cc2c9",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "Arial Black,Arial Black,Gadget,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Arial Black,Arial Black,Gadget,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Monitoramento de Consumo de Água em Residências",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 60,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 6,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "b007859f7b041949",
+        "type": "ui_group",
+        "name": "Monitoramento Torneira",
+        "tab": "c16b14bf1dceba15",
+        "order": 1,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a284fdaa38c18f81",
+        "type": "ui_group",
+        "name": "Function",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "641235355f36f5d7",
+        "type": "ui_group",
+        "name": "Function",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "93fae4f98fb26898",
+        "type": "ui_group",
+        "name": "Function",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "dd885df6ad54c298",
+        "type": "ui_group",
+        "name": "Function",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 10,
+        "collapse": false
+    },
+    {
+        "id": "c99b4d50d24216dc",
+        "type": "ui_group",
+        "name": "Function",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d28ce36e84a59828",
+        "type": "ui_group",
+        "name": "Function",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e169516c809e1bb3",
+        "type": "ui_group",
+        "name": "Function",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d725af890aebfeb2",
+        "type": "ui_group",
+        "name": "Function",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c16b14bf1dceba15",
+        "type": "ui_tab",
+        "name": "Torneira Cozinha",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "f22c19c679501847",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "embarcadosifsp.duckdns.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "d9523f1482b26e5f",
+        "type": "ui_tab",
+        "name": "Chuveiro",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "9e3158a47e77b7fc",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "",
+        "order": 6,
+        "width": "1",
+        "height": "1"
+    },
+    {
+        "id": "0b55d462eb1d2cbc",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "ebd462f24540a77c",
+        "type": "ui_tab",
+        "name": "Irrigação do Jardim",
+        "icon": "dashboard",
+        "order": 12,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "06438dbb82ee4751",
+        "type": "ui_group",
+        "name": "                     Monitoramento do Chuveiro",
+        "tab": "d9523f1482b26e5f",
+        "order": 1,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "bccfb3dce5cb0de7",
+        "type": "ui_group",
+        "name": "Tabela",
+        "tab": "d9523f1482b26e5f",
+        "order": 2,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "cd9bad5ee3966089",
+        "type": "ui_group",
+        "name": "Tabela",
+        "tab": "c16b14bf1dceba15",
+        "order": 2,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2c5e7021df75c137",
+        "type": "ui_group",
+        "name": "Monitoramento da Irrigação",
+        "tab": "ebd462f24540a77c",
+        "order": 1,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8b2ffd9133adec20",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "viniciusprojetos.duckdns.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "3add5f1c9f1e8453",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "srvsebe9.c17crlwrzzjr.us-east-2.rds.amazonaws.com",
+        "port": "3306",
+        "db": "consumo_de_agua",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "fb1f483df9ec616d",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "172.31.82.140",
+        "port": "3306",
+        "db": "leituras_potenciometros",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "b0ecffd14ec751e9",
+        "type": "ui_group",
+        "name": "Tabela",
+        "tab": "ebd462f24540a77c",
+        "order": 2,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "30b5c89dd7a48a6f",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "06438dbb82ee4751",
+        "order": 1,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "09b6f7f22c3733f6",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "06438dbb82ee4751",
+        "order": 3,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "4250629913a1e4bb",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "06438dbb82ee4751",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "877666a0d089e53b",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "06438dbb82ee4751",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "a680b26b1885cc9f",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "06438dbb82ee4751",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "c21cf8559164f51d",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "06438dbb82ee4751",
+        "order": 7,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "c9aab83be683d13c",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "06438dbb82ee4751",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4d1b1762b60c1cf4",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "06438dbb82ee4751",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d76325d65a179f38",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "06438dbb82ee4751",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d898aaae3345293c",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "06438dbb82ee4751",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0c127f7ef856ccaa",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "06438dbb82ee4751",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e9cd15ae657f1417",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "06438dbb82ee4751",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1e290b9312c60fe9",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "06438dbb82ee4751",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8c5a3017d8300645",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "06438dbb82ee4751",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e8f85695703f392d",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "06438dbb82ee4751",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0a76f942553c7f66",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "06438dbb82ee4751",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "711bb8d36d8e5113",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "06438dbb82ee4751",
+        "order": 19,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1b77a3b817272ab8",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "06438dbb82ee4751",
+        "order": 20,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4c0fc8aeda54d29c",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "b007859f7b041949",
+        "order": 1,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "6e294845dd81257a",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "b007859f7b041949",
+        "order": 3,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "6a441c7a1d45519a",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "b007859f7b041949",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "e6508a1f31c8290e",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "b007859f7b041949",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "32f90c90632426b4",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "b007859f7b041949",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "0b30294133372f2b",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "b007859f7b041949",
+        "order": 7,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "5e8abb7f4c990c37",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "b007859f7b041949",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4d768ecfa4bcf74f",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "b007859f7b041949",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1fb75aafb9a75bbd",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "b007859f7b041949",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "52ff2359f30663f9",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "b007859f7b041949",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "43d298a30926a75a",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "b007859f7b041949",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3ba29bb76a27b87e",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "b007859f7b041949",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6242620b02f34e4b",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "b007859f7b041949",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1df7852b630afdfe",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "b007859f7b041949",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2ccfdff93bff8027",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "b007859f7b041949",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f67d191652b8d77d",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "b007859f7b041949",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3ffab856c4eb6a20",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "b007859f7b041949",
+        "order": 19,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "debe60d1269a7cc1",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "b007859f7b041949",
+        "order": 20,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6436ed1f2297b922",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "2c5e7021df75c137",
+        "order": 1,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "3a3d4e3f3fbcd978",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "2c5e7021df75c137",
+        "order": 3,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "6033ed92755df7e1",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "2c5e7021df75c137",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "098e0e5a8fab04bd",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "2c5e7021df75c137",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "21cd1de571ed2529",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "2c5e7021df75c137",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "52ac8349d173a9e9",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "2c5e7021df75c137",
+        "order": 7,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "01183f51516ae2bc",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "2c5e7021df75c137",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c9334d2ae94e7026",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "2c5e7021df75c137",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6ba71aa199557bb0",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "2c5e7021df75c137",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d727be2826da37ac",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "2c5e7021df75c137",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "334c3f93e00d7bf0",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "2c5e7021df75c137",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9d74a2032bd737da",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "2c5e7021df75c137",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "74a6092b010e10af",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "2c5e7021df75c137",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b8fe345d38137894",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "2c5e7021df75c137",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c5dba48a5c04dce2",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "2c5e7021df75c137",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "36c4d7f44e7483da",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "2c5e7021df75c137",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a7bdaceef973636d",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "2c5e7021df75c137",
+        "order": 19,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1caaaaae91164bb0",
+        "type": "ui_spacer",
+        "z": "1ec0a21f3604a711",
+        "name": "spacer",
+        "group": "2c5e7021df75c137",
+        "order": 20,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f4901c3b24976add",
+        "type": "function",
+        "z": "1ec0a21f3604a711",
+        "name": "Chuveiro",
+        "func": "var chuveiro = msg.payload;\n\nmsg.chuveiro = chuveiro;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 160,
+        "wires": [
+            [
+                "f1071dd15789beb4"
+            ]
+        ]
+    },
+    {
+        "id": "f90f9ec81bec7ac4",
+        "type": "function",
+        "z": "1ec0a21f3604a711",
+        "name": "Torneira da Cozinha",
+        "func": "var torneirac = msg.payload;\n\nmsg.torneirac = torneirac;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 220,
+        "wires": [
+            [
+                "f1071dd15789beb4"
+            ]
+        ]
+    },
+    {
+        "id": "1d98808edf50a0ca",
+        "type": "function",
+        "z": "1ec0a21f3604a711",
+        "name": "Irrigação do Jardim",
+        "func": "var irrigacao = msg.payload;\n\nmsg.irrigacao = irrigacao;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 280,
+        "wires": [
+            [
+                "f1071dd15789beb4"
+            ]
+        ]
+    },
+    {
+        "id": "f1071dd15789beb4",
+        "type": "join",
+        "z": "1ec0a21f3604a711",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "3",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1150,
+        "y": 220,
+        "wires": [
+            [
+                "3285728bd93bf040"
+            ]
+        ]
+    },
+    {
+        "id": "3285728bd93bf040",
+        "type": "delay",
+        "z": "1ec0a21f3604a711",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1310,
+        "y": 220,
+        "wires": [
+            [
+                "fb14963e423185ec"
+            ]
+        ]
+    },
+    {
+        "id": "fb14963e423185ec",
+        "type": "function",
+        "z": "1ec0a21f3604a711",
+        "name": "INSERT",
+        "func": "var chuveiro = msg.payload['esp32/chuveiro'] || 0;\nvar torneirac = msg.payload['esp32/torneirac'] || 0;\nvar irrigacao = msg.payload['esp32/irrigacao'] || 0;\n\nmsg.topic = \"INSERT INTO tabela_consumo(chuveiro, torneirac, irrigacao, timeStamp) VALUES (\" + chuveiro + \", \" + torneirac + \", \" + irrigacao + \", CURRENT_TIMESTAMP );\"\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1480,
+        "y": 220,
+        "wires": [
+            [
+                "15ad88fb2e52b75b"
+            ]
+        ]
+    },
+    {
+        "id": "12c1ad3ee971c2aa",
+        "type": "mqtt in",
+        "z": "1ec0a21f3604a711",
+        "name": "",
+        "topic": "esp32/chuveiro",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "8b2ffd9133adec20",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 720,
+        "y": 160,
+        "wires": [
+            [
+                "f4901c3b24976add"
+            ]
+        ]
+    },
+    {
+        "id": "e4cda70908c44d07",
+        "type": "mqtt in",
+        "z": "1ec0a21f3604a711",
+        "name": "",
+        "topic": "esp32/irrigacao",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "8b2ffd9133adec20",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 720,
+        "y": 280,
+        "wires": [
+            [
+                "1d98808edf50a0ca"
+            ]
+        ]
+    },
+    {
+        "id": "53e25006e8caf08d",
+        "type": "mqtt in",
+        "z": "1ec0a21f3604a711",
+        "name": "",
+        "topic": "esp32/torneirac",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "8b2ffd9133adec20",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 720,
+        "y": 220,
+        "wires": [
+            [
+                "f90f9ec81bec7ac4"
+            ]
+        ]
+    },
+    {
+        "id": "15ad88fb2e52b75b",
+        "type": "mysql",
+        "z": "1ec0a21f3604a711",
+        "mydb": "3add5f1c9f1e8453",
+        "name": "conexao_mysql",
+        "x": 1680,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4af3c3184c9a11a5",
+        "type": "mysql",
+        "z": "1ec0a21f3604a711",
+        "mydb": "3add5f1c9f1e8453",
+        "name": "conexao_mysql",
+        "x": 1040,
+        "y": 540,
+        "wires": [
+            [
+                "67281422947249a9"
+            ]
+        ]
+    },
+    {
+        "id": "2e93b676fbdfcaba",
+        "type": "function",
+        "z": "1ec0a21f3604a711",
+        "name": "DELET",
+        "func": "\nmsg.topic = \"Delete  FROM tabela_consumo ;\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 540,
+        "wires": [
+            [
+                "4af3c3184c9a11a5"
+            ]
+        ]
+    },
+    {
+        "id": "67281422947249a9",
+        "type": "debug",
+        "z": "1ec0a21f3604a711",
+        "name": "dados mysql",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1230,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "f784704e6850e8f8",
+        "type": "inject",
+        "z": "1ec0a21f3604a711",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 700,
+        "y": 540,
+        "wires": [
+            [
+                "2e93b676fbdfcaba"
+            ]
+        ]
+    },
+    {
+        "id": "44b0e28829cf18df",
+        "type": "comment",
+        "z": "1ec0a21f3604a711",
+        "name": "Mysql: Select últimos 10 dados para grafico e tabela",
+        "info": "",
+        "x": 810,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "a2fcf391b3dd3f44",
+        "type": "inject",
+        "z": "1ec0a21f3604a711",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 710,
+        "y": 380,
+        "wires": [
+            [
+                "ebf377307733f282"
+            ]
+        ]
+    },
+    {
+        "id": "ebf377307733f282",
+        "type": "function",
+        "z": "1ec0a21f3604a711",
+        "name": "SELECT",
+        "func": "msg.topic = \"SELECT chuveiro as chuveiro, torneirac as torneirac, irrigacao as irrigacao, timeStamp as timeStamp FROM tabela_consumo where timeStamp >= now() - 84600;\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 380,
+        "wires": [
+            [
+                "09ab9131b3595bcb"
+            ]
+        ]
+    },
+    {
+        "id": "09ab9131b3595bcb",
+        "type": "mysql",
+        "z": "1ec0a21f3604a711",
+        "mydb": "3add5f1c9f1e8453",
+        "name": "conexao_mysql",
+        "x": 1040,
+        "y": 380,
+        "wires": [
+            [
+                "dbd76a66bd900caf"
+            ]
+        ]
+    },
+    {
+        "id": "dbd76a66bd900caf",
+        "type": "change",
+        "z": "1ec0a21f3604a711",
+        "name": "Format data",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "(\t  $series := [\t    { \"label\": \"chuveiro\", \"field\": \"chuveiro\" },\t    { \"label\": \"torneirac\", \"field\": \"torneirac\" },\t    { \"label\": \"irrigacao\", \"field\": \"irrigacao\" }\t  ];\t  $xaxis := \"timeStamp\";\t  [\t    {\t      \"series\": $series.label,\t      \"data\": $series.[\t        (\t          $yaxis := $.field;\t          $$.payload.{\t            \"x\": $lookup($, $xaxis),\t            \"y\": $lookup($, $yaxis)\t          }\t        )\t      ]\t    }\t  ]\t)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1230,
+        "y": 380,
+        "wires": [
+            [
+                "b6d32722b8b4d578"
+            ]
+        ]
+    },
+    {
+        "id": "b6d32722b8b4d578",
+        "type": "ui_chart",
+        "z": "1ec0a21f3604a711",
+        "name": "24 hours data",
+        "group": "3c1b09fa4c168fdf",
+        "order": 1,
+        "width": 14,
+        "height": 9,
+        "label": "Monitoramento",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#00e68c",
+            "#2d2da8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1420,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bc0e773722c66d44",
+        "type": "inject",
+        "z": "1ec0a21f3604a711",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 710,
+        "y": 480,
+        "wires": [
+            [
+                "201ce3cb365fe162"
+            ]
+        ]
+    },
+    {
+        "id": "201ce3cb365fe162",
+        "type": "function",
+        "z": "1ec0a21f3604a711",
+        "name": "SELECT",
+        "func": "\nmsg.topic = \"SELECT chuveiro, torneirac, irrigacao, timeStamp FROM tabela_consumo ORDER BY timeStamp DESC LIMIT 10;\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 480,
+        "wires": [
+            [
+                "a3eedf3a2a6869dc"
+            ]
+        ]
+    },
+    {
+        "id": "a3eedf3a2a6869dc",
+        "type": "mysql",
+        "z": "1ec0a21f3604a711",
+        "mydb": "3add5f1c9f1e8453",
+        "name": "conexao_mysql",
+        "x": 1040,
+        "y": 480,
+        "wires": [
+            [
+                "14ce15a61c24e0a3"
+            ]
+        ]
+    },
+    {
+        "id": "14ce15a61c24e0a3",
+        "type": "function",
+        "z": "1ec0a21f3604a711",
+        "name": "Formatar Dados",
+        "func": "const formattedData = [];\n\nmsg.payload.forEach((row) => {\n    const currentDate = new Date();\n    const hours = currentDate.getHours();\n    const minutes = currentDate.getMinutes();\n    const seconds = currentDate.getSeconds();\n    const formattedRow = {\n        hora: `${hours}:${minutes}:${seconds}`,\n        chuveiro: row.chuveiro,\n        torneirac: row.torneirac,\n        irrigacao: row.irrigacao\n    };\n    formattedData.push(formattedRow);\n});\n\nmsg.payload = formattedData;\n\nreturn msg;\n\n\n/*const formattedData = [];\n\nmsg.payload.forEach((row) => {\n    const formattedRow = {\n        hora: row.timeStamp,\n        chuveiro: row.chuveiro,\n        torneirac: row.torneirac,\n        irrigacao: row.irrigacao\n    };\n    formattedData.push(formattedRow);\n});\n\nmsg.payload = formattedData;\n\nreturn msg;*/",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1240,
+        "y": 480,
+        "wires": [
+            [
+                "508cbd680b9a8ef4"
+            ]
+        ]
+    },
+    {
+        "id": "508cbd680b9a8ef4",
+        "type": "ui_template",
+        "z": "1ec0a21f3604a711",
+        "group": "6a4e2e67017b39e7",
+        "name": "Tabela com style",
+        "order": 1,
+        "width": 14,
+        "height": 6,
+        "format": "<div layout=\"row\" layout-align=\"start center\">\n  <span flex>Hora</span>\n  <span flex>Chuveiro</span>\n  <span flex>Torneira</span>\n  <span flex>Irrigação</span>\n</div>\n<div layout=\"row\" layout-align=\"start center\" ng-repeat=\"row in msg.payload\">\n  <span flex style=\"color: green\">{{row.hora}}</span>\n  <span flex style=\"color: red\">{{row.chuveiro}} m³/s</span>\n  <span flex style=\"color: blue\">{{row.torneirac}} m³/s</span>\n  <span flex style=\"color: purple\">{{row.irrigacao}} m³/s</span>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1430,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c2c486afb44fab2a",
+        "type": "mqtt in",
+        "z": "1ec0a21f3604a711",
+        "name": "",
+        "topic": "esp32/chuveiro",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "8b2ffd9133adec20",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 80,
+        "wires": [
+            [
+                "8e490f10e22c1b07",
+                "42a524508c2b5b3c",
+                "e2c31f5212c1a660"
+            ]
+        ]
+    },
+    {
+        "id": "625c8d8440ea436d",
+        "type": "mqtt in",
+        "z": "1ec0a21f3604a711",
+        "name": "",
+        "topic": "esp32/torneirac",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "8b2ffd9133adec20",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 140,
+        "y": 320,
+        "wires": [
+            [
+                "aa196e115ef58555",
+                "53363f65b75e8815",
+                "ff5e310ac8150a42"
+            ]
+        ]
+    },
+    {
+        "id": "0fcfc07c63598f4c",
+        "type": "mqtt in",
+        "z": "1ec0a21f3604a711",
+        "name": "",
+        "topic": "esp32/irrigacao",
+        "qos": "1",
+        "datatype": "auto",
+        "broker": "8b2ffd9133adec20",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 140,
+        "y": 560,
+        "wires": [
+            [
+                "c4929c43cc7f94b3",
+                "846aca7249a8c254",
+                "ecb163a5f20133d7"
+            ]
+        ]
+    },
+    {
+        "id": "8e490f10e22c1b07",
+        "type": "ui_gauge",
+        "z": "1ec0a21f3604a711",
+        "name": "",
+        "group": "06438dbb82ee4751",
+        "order": 9,
+        "width": 6,
+        "height": 6,
+        "gtype": "wave",
+        "title": "Consumo",
+        "label": "L",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "12",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 380,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "42a524508c2b5b3c",
+        "type": "ui_chart",
+        "z": "1ec0a21f3604a711",
+        "name": "",
+        "group": "bccfb3dce5cb0de7",
+        "order": 1,
+        "width": 10,
+        "height": 9,
+        "label": "Consumo",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 380,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "aa196e115ef58555",
+        "type": "ui_gauge",
+        "z": "1ec0a21f3604a711",
+        "name": "",
+        "group": "b007859f7b041949",
+        "order": 9,
+        "width": 6,
+        "height": 6,
+        "gtype": "wave",
+        "title": "Consumo",
+        "label": "L",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "12",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 380,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "53363f65b75e8815",
+        "type": "ui_chart",
+        "z": "1ec0a21f3604a711",
+        "name": "",
+        "group": "cd9bad5ee3966089",
+        "order": 1,
+        "width": 10,
+        "height": 9,
+        "label": "Consumo",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 380,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c4929c43cc7f94b3",
+        "type": "ui_gauge",
+        "z": "1ec0a21f3604a711",
+        "name": "",
+        "group": "2c5e7021df75c137",
+        "order": 9,
+        "width": 6,
+        "height": 6,
+        "gtype": "wave",
+        "title": "Consumo",
+        "label": "L",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "7",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 380,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "846aca7249a8c254",
+        "type": "ui_chart",
+        "z": "1ec0a21f3604a711",
+        "name": "",
+        "group": "b0ecffd14ec751e9",
+        "order": 1,
+        "width": 10,
+        "height": 9,
+        "label": "Consumo",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 380,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e2c31f5212c1a660",
+        "type": "function",
+        "z": "1ec0a21f3604a711",
+        "name": "function 1",
+        "func": "if (msg.payload > 1) {\n    msg.payload = true;\n} else {\n    msg.payload = false;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 100,
+        "wires": [
+            [
+                "706168b07e3cc845",
+                "a946c99aba692ba3"
+            ]
+        ]
+    },
+    {
+        "id": "706168b07e3cc845",
+        "type": "ui_led",
+        "z": "1ec0a21f3604a711",
+        "order": 2,
+        "group": "06438dbb82ee4751",
+        "width": 4,
+        "height": 3,
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 510,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "ff5e310ac8150a42",
+        "type": "function",
+        "z": "1ec0a21f3604a711",
+        "name": "function 2",
+        "func": "if (msg.payload > 1) {\n    msg.payload = true;\n} else {\n    msg.payload = false;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 340,
+        "wires": [
+            [
+                "f06ec3cd3e11e06a",
+                "d8cbbbac86170e1e"
+            ]
+        ]
+    },
+    {
+        "id": "ecb163a5f20133d7",
+        "type": "function",
+        "z": "1ec0a21f3604a711",
+        "name": "function 3",
+        "func": "if (msg.payload > 1) {\n    msg.payload = true;\n} else {\n    msg.payload = false;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 580,
+        "wires": [
+            [
+                "22ec7c6e51b0339a",
+                "6149a3469f227da0"
+            ]
+        ]
+    },
+    {
+        "id": "f06ec3cd3e11e06a",
+        "type": "ui_led",
+        "z": "1ec0a21f3604a711",
+        "order": 2,
+        "group": "b007859f7b041949",
+        "width": 4,
+        "height": 3,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 510,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "22ec7c6e51b0339a",
+        "type": "ui_led",
+        "z": "1ec0a21f3604a711",
+        "order": 2,
+        "group": "2c5e7021df75c137",
+        "width": 4,
+        "height": 3,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": false,
+        "name": "",
+        "x": 510,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "a946c99aba692ba3",
+        "type": "delay",
+        "z": "1ec0a21f3604a711",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 340,
+        "y": 160,
+        "wires": [
+            [
+                "4229c7db5d14944f"
+            ]
+        ]
+    },
+    {
+        "id": "4229c7db5d14944f",
+        "type": "mqtt out",
+        "z": "1ec0a21f3604a711",
+        "name": "",
+        "topic": "Led/Indicachuveiro",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "8b2ffd9133adec20",
+        "x": 510,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "d8cbbbac86170e1e",
+        "type": "delay",
+        "z": "1ec0a21f3604a711",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 340,
+        "y": 400,
+        "wires": [
+            [
+                "16ca7d9e9d9604f7"
+            ]
+        ]
+    },
+    {
+        "id": "16ca7d9e9d9604f7",
+        "type": "mqtt out",
+        "z": "1ec0a21f3604a711",
+        "name": "",
+        "topic": "Led/Indicatorneirac",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "8b2ffd9133adec20",
+        "x": 510,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "6149a3469f227da0",
+        "type": "delay",
+        "z": "1ec0a21f3604a711",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 400,
+        "y": 640,
+        "wires": [
+            [
+                "a6262aed6a7953a1"
+            ]
+        ]
+    },
+    {
+        "id": "a6262aed6a7953a1",
+        "type": "mqtt out",
+        "z": "1ec0a21f3604a711",
+        "name": "",
+        "topic": "Led/Indicairrigacao",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "8b2ffd9133adec20",
+        "x": 570,
+        "y": 640,
+        "wires": []
+    }
+]
